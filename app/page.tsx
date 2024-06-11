@@ -1,3 +1,17 @@
+import Footer from "./global/footer";
+import Header from "./global/header";
+import Clients from "./sections/clients";
+import Hero from "./sections/hero";
+
 export default function Home() {
-    return <main className="mt-2 ms-3">HI shohag</main>;
+    return (
+        <>
+            <Header />
+            <main>
+                <Hero />
+                <Clients />
+            </main>
+            <Footer />
+        </>
+    );
 }
